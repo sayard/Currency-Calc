@@ -1,0 +1,15 @@
+#titleLabel{
+    -fx-text-fill: #2980B9;
+    -fx-tile-alignment: center;
+    -fx-padding: 20px 0px 0px 0px;
+    -fx-font-size: 60px
+}
+#hBox{
+    -fx-padding: 100px 0px 0px 0px;
+}
+#textField{
+    -fx-pref-column-count:5;
+}
+#imageView{
+    -fx-graphics:url(arrows.png);
+}

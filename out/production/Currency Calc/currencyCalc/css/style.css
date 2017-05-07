@@ -1,0 +1,27 @@
+#titleLabel{
+    -fx-text-fill: #2980B9;
+    -fx-tile-alignment: center;
+    -fx-padding: 20px 0px 0px 0px;
+    -fx-font-size: 60px
+}
+#hBox{
+    -fx-padding: 100px 0px 0px 0px;
+}
+#textField{
+    -fx-pref-column-count:5;
+}
+#mainRateLabel{
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 32px;
+}
+#subRateLabel{
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 24px;
+}
+#vBox{
+    -fx-padding: 0px 0px 40px 0px;
+}
+#button{
+    -fx-background-color: #2C3E50;
+    -fx-text-fill:white;
+}

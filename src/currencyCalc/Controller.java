@@ -1,4 +1,4 @@
-package sample;
+package currencyCalc;
 
 public class Controller {
 }

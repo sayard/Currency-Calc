@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <Label fx:id="titleLabel" contentDisplay="CENTER" text="Currency Calculator" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <HBox fx:id="hBox" alignment="TOP_CENTER">
+            <TextField fx:id="textField" />
+            <ComboBox />
+            <ImageView>
+            <image>
+               <Image url="@images/arrows.png" />
+            </image>
+            </ImageView>
+            <ComboBox />
+            <Button fx:id="button" text="Calculate"/>
+        </HBox>
+    </center>
+    <bottom>
+        <VBox fx:id="vBox" alignment="TOP_CENTER">
+            <Label fx:id="mainRateLabel" text="1 USD = 0.909 EUR" />
+            <Label fx:id="subRateLabel" text="1 EUR = 1.099 USD" />
+        </VBox>
+    </bottom>
+</BorderPane>
