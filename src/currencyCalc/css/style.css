@@ -13,3 +13,16 @@
 #imageView{
     -fx-graphics:url(arrows.png);
 }
+#button{
+    -fx-background-color: #2C3E50;
+    -fx-text-fill: white;
+}
+#mainRateLabel{
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 32px;
+}
+#subRateLabel{
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 24px;
+    -fx-padding: 0px 0px 40px 0px;
+}
